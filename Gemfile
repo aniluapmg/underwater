@@ -14,6 +14,8 @@ gem "devise"
 # Se añade boostrap
 gem "bootstrap-sass"
 # Use SCSS for stylesheets
+#stripe for taking payments
+gem "stripe", :git => "https://github.com/stripe/stripe-ruby"
 gem "sass-rails", ">= 6"
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem "webpacker", "~> 5.0"
